@@ -23,7 +23,6 @@ header {
 }
 .banner-heading {
   margin-bottom: 30px;
-
   color: white;
   font-weight: bold;
   font-size: 65px;
@@ -33,15 +32,17 @@ header {
   font-size: 25px;
 }
 .banner-container > button {
-    background-color: #ffffff;
-    font-weight: bold;
+  background-color: #ffffff;
+  font-weight: bold;
   border: 0;
-  padding: 30px 50px;
+  padding: 25px 50px;
   border-radius: 10px;
   font-size: 20px;
 }
 
-/* section- */
+/********************
+     First Section
+*********************/
 
 .section-container {
   margin: auto;
@@ -73,7 +74,9 @@ header {
   color: green;
 }
 
-/* ---------------------------------------- */
+/****************************
+     plans-container
+******************************/
 .plans-container {
   margin-top: 200px;
 }
@@ -95,9 +98,11 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* --------------------------------------------- */
+/*********************************
+         Watch section
+**********************************/
 .watch-container {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
   margin-top: 200px;
   height: 300px;
 }
@@ -112,78 +117,110 @@ h2 {
   padding: 60px;
 }
 
-.watchs>h1{
-    font-size: 50px;
-    font-weight: bold;
-    border: 0;
-    border-radius: 5px;
-    color: #ffffff;
+.watchs > h1 {
+  font-size: 50px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
-.watchs>button{
+.watchs > button {
+  margin-top: 20px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  color: #005fac;
+  padding: 20px 50px;
+}
+
+/* Extra Part */
+.extra-page {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.feedback-contant {
+  width: 50%;
+  margin-left: 50px;
+}
+.feedback-text{
     margin-top: 20px;
-    background-color: white;
-    font-size: 20px;
-    font-weight: bold;
-    border: 0;
-    border-radius: 5px;
-    color: #005FAC;
-    padding: 20px 50px;
+    font-size: 25px;
 }
-
-
-/* footer */
-
-footer{
-    color: #ffffff;
-    background-color: #151414;
-    display: flex;
+.feedback-img {
+  width: 400px;
+  height: 350px;
+  border-radius: 5px;
 }
-
-.sub-footer{
-    padding: 60px;
-    width: 50%;
-}
-
-.sub-footer>h1{
-    font-size: 60px;
-}
-.sub-footer>p{
-    margin-top: 20px;
-    font-size: 24px;
-}
-.contact{
-    margin-top: 20px;
-    font-size: 24px;
-
-}
-.logos{
-    margin-top: 20px;
-    display: flex;
-}
-.logo{
-    margin-right: 20px;
-}
-
-
-.subs-input{
-    color: #ffffff;
-    background-color: #151414;
-    padding: 20px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 30px;
-}
-.subs-btn{
+.link-button {
     font-weight: bold;
     font-size: 20px;
+    display: inline-block;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: #005FAC
-    ;
-    border: 0
-    ;
-    border-radius: 5px;
-    padding: 20px 50px;
+    background-color: #005fac;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+/***************************************
+             footer
+ ****************************************/
+
+footer {
+    margin-top: 200px;
+  color: #ffffff;
+  background-color: #151414;
+  display: flex;
+}
+
+.sub-footer {
+  padding: 60px;
+  width: 50%;
+}
+
+.sub-footer > h1, .feedback-header {
+  font-size: 60px;
+}
+.sub-footer > p {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.contact {
+  margin-top: 20px;
+  font-size: 24px;
+}
+.logos {
+  margin-top: 20px;
+  display: flex;
+}
+.logo {
+  margin-right: 20px;
+}
+
+/********************
+     Footer parts
+**********************/
+.subs-input {
+  color: #ffffff;
+  background-color: #151414;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.subs-btn {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #005fac;
+  border: 0;
+  border-radius: 5px;
+  padding: 20px 50px;
 }
