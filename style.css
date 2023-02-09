@@ -72,3 +72,26 @@ header{
 .check-icon{
     color: green;
 }
+
+
+
+/* ---------------------------------------- */
+.plans-container{
+    margin-top: 200px;
+}
+.plans-header{
+    font-size: 65px;
+    text-align: center;
+}
+
+.plans{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.plan{
+    text-align: center;
+}
+.plan>img,h2{
+    margin-bottom: 20px;
+}
