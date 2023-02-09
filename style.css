@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.banner-container{
+    position: absolute;
+    font-family: sans-serif;
+    color: white;
+    width: 800px;
+    right: 50px;
+    bottom: 250px;
+    text-align: right;
+}
+.banner-heading{
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 65px;
+}
+.banner-container>p{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.banner-container>button{
+
+    border: 0;
+    padding: 30px 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
