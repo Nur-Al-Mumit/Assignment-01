@@ -1,97 +1,132 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-header{
-    background-image: url(./images/banner/banner3.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100vh;
-    position: relative;
+header {
+  background-image: url(./images/banner/banner3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
 }
-.banner-container{
-    position: absolute;
-    font-family: sans-serif;
-    color: white;
-    width: 800px;
-    right: 50px;
-    bottom: 250px;
-    text-align: right;
+.banner-container {
+  position: absolute;
+  font-family: sans-serif;
+  color: white;
+  width: 800px;
+  right: 50px;
+  bottom: 250px;
+  text-align: right;
 }
-.banner-heading{
-    margin-bottom: 30px;
-    
-    color: white;
+.banner-heading {
+  margin-bottom: 30px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 65px;
+}
+.banner-container > p {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.banner-container > button {
+    background-color: #ffffff;
     font-weight: bold;
-    font-size: 65px;
-}
-.banner-container>p{
-    margin-bottom: 20px;
-    font-size: 25px;
-}
-.banner-container>button{
-
-    border: 0;
-    padding: 30px 50px;
-    border-radius: 10px;
-    font-size: 20px;
+  border: 0;
+  padding: 30px 50px;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
 /* section- */
 
-.section-container{
-    margin: auto;
-    width: 90%;
-    margin-top: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.section-container {
+  margin: auto;
+  width: 90%;
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.person-img{
-    width: 50%;
+.person-img {
+  width: 50%;
 }
-.person-details{
-
-    width: 50%;
-}
-
-.person-details>h1{
-    font-size: 60px;
-    margin-bottom: 20px;
-}
-.person-details>p{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-.person-info{
-    font-size: 20px;
-}
-.check-icon{
-    color: green;
+.person-details {
+  width: 50%;
 }
 
-
+.person-details > h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.person-details > p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.person-info {
+  font-size: 20px;
+}
+.check-icon {
+  color: green;
+}
 
 /* ---------------------------------------- */
-.plans-container{
-    margin-top: 200px;
+.plans-container {
+  margin-top: 200px;
 }
-.plans-header{
-    font-size: 65px;
-    text-align: center;
+.plans-header {
+  font-size: 65px;
+  text-align: center;
 }
 
-.plans{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
+.plans {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.plan{
-    text-align: center;
+.plan {
+  text-align: center;
 }
-.plan>img,h2{
-    margin-bottom: 20px;
+.plan > img,
+h2 {
+  margin-bottom: 20px;
+}
+
+/* --------------------------------------------- */
+.watch-container {
+    margin-bottom: 200px;
+  margin-top: 200px;
+  height: 300px;
+}
+.watchs {
+  margin: auto;
+  width: 80%;
+  background-image: url(./images/gradient1.png), url(./images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  background-size: 100% 100%;
+  padding: 60px;
+}
+
+.watchs>h1{
+    font-size: 50px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.watchs>button{
+    margin-top: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #005FAC;
+    padding: 20px 50px;
 }
