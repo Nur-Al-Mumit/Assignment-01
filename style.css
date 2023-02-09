@@ -130,3 +130,60 @@ h2 {
     color: #005FAC;
     padding: 20px 50px;
 }
+
+
+/* footer */
+
+footer{
+    color: #ffffff;
+    background-color: #151414;
+    display: flex;
+}
+
+.sub-footer{
+    padding: 60px;
+    width: 50%;
+}
+
+.sub-footer>h1{
+    font-size: 60px;
+}
+.sub-footer>p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.contact{
+    margin-top: 20px;
+    font-size: 24px;
+
+}
+.logos{
+    margin-top: 20px;
+    display: flex;
+}
+.logo{
+    margin-right: 20px;
+}
+
+
+.subs-input{
+    color: #ffffff;
+    background-color: #151414;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.subs-btn{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #005FAC
+    ;
+    border: 0
+    ;
+    border-radius: 5px;
+    padding: 20px 50px;
+}
