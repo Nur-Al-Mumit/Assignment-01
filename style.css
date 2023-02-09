@@ -18,7 +18,7 @@ header {
   color: white;
   width: 800px;
   right: 50px;
-  bottom: 250px;
+  bottom: 150px;
   text-align: right;
 }
 .banner-heading {
@@ -146,21 +146,24 @@ h2 {
   width: 50%;
   margin-left: 50px;
 }
-.feedback-text{
-    margin-top: 20px;
-    font-size: 25px;
+.feedback-text {
+  margin-top: 20px;
+  font-size: 25px;
 }
+.feedback-header {
+    font-size: 50px;
+  }
 .feedback-img {
   width: 400px;
   height: 350px;
   border-radius: 5px;
 }
 .link-button {
-    font-weight: bold;
-    font-size: 20px;
-    display: inline-block;
-    margin-top: 20px;
-    background-color: #005fac;
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #005fac;
   text-decoration: none;
   color: white;
   border-radius: 5px;
@@ -172,7 +175,7 @@ h2 {
  ****************************************/
 
 footer {
-    margin-top: 200px;
+  margin-top: 200px;
   color: #ffffff;
   background-color: #151414;
   display: flex;
@@ -183,7 +186,7 @@ footer {
   width: 50%;
 }
 
-.sub-footer > h1, .feedback-header {
+.sub-footer > h1{
   font-size: 60px;
 }
 .sub-footer > p {
